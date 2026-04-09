@@ -13,6 +13,10 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
+import javafx.scene.Node;
+import javafx.event.ActionEvent;
+import javafx.scene.layout.AnchorPane;
+
 /**
  *
  * @author Ath07
@@ -61,5 +65,4 @@ public class AdminControl {
             e.printStackTrace();
         }
     }
-
 }

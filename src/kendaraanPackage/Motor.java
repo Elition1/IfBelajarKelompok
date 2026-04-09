@@ -10,4 +10,8 @@ package kendaraanPackage;
  */
 public class Motor extends Kendaraan {
 
+    @Override
+    void tipeKendaraan() {
+        //Print kendaraan
+    }
 }
