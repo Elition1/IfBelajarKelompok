@@ -4,7 +4,6 @@
  */
 package kendaraanPackage;
 
-public class Mobil extends Kendaraan
-{
-    
+public class Mobil extends Kendaraan {
+
 }

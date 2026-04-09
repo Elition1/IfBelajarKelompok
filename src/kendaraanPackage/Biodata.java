@@ -1,13 +1,11 @@
 package kendaraanPackage;
 
-public class Biodata
-{
+public class Biodata {
     private String nama;
     private String id;
     private String email;
 
-    public Biodata (String nama, String id, String email)
-    {
+    public Biodata(String nama, String id, String email) {
         this.nama = nama;
         this.id = id;
         this.email = email;

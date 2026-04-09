@@ -4,17 +4,14 @@
  */
 package kendaraanPackage;
 
-abstract class Kendaraan
-{
+abstract class Kendaraan {
     private String deskripsi;
 
-    public Kendaraan (String deskripsi)
-    {
+    public Kendaraan(String deskripsi) {
         this.deskripsi = deskripsi;
     }
 
-    public Kendaraan ()
-    {
+    public Kendaraan() {
         this.deskripsi = "Tidak Ada Deskripsi";
     }
 }

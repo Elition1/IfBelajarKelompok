@@ -8,7 +8,6 @@ package kendaraanPackage;
  *
  * @author Ath07
  */
-public class Motor extends Kendaraan
-{
-    
+public class Motor extends Kendaraan {
+
 }
