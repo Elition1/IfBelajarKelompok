@@ -4,10 +4,17 @@
  */
 package kendaraanPackage;
 
-/**
- *
- * @author Ath07
- */
-public class Kendaraan {
-    
+abstract class Kendaraan
+{
+    private String deskripsi;
+
+    public Kendaraan (String deskripsi)
+    {
+        this.deskripsi = deskripsi;
+    }
+
+    public Kendaraan ()
+    {
+        this.deskripsi = "Tidak Ada Deskripsi";
+    }
 }
