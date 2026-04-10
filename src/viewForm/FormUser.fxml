@@ -113,7 +113,7 @@
                   </ImageView>
                </children>
             </AnchorPane>
-            <AnchorPane fx:id="Layerkendaraan" prefHeight="200.0" prefWidth="200.0">
+            <AnchorPane fx:id="Layerkendaraan" prefHeight="200.0" prefWidth="200.0" visible="false">
                <children>
                   <TabPane fx:id="TabPaneMotrMobil" layoutX="4.0" prefHeight="586.0" prefWidth="957.0" tabClosingPolicy="UNAVAILABLE">
                     <tabs>
@@ -121,9 +121,9 @@
                            <content>
                               <AnchorPane fx:id="IsiTabMotor" prefHeight="200.0" prefWidth="200.0">
                                  <children>
-                                    <AnchorPane prefHeight="54.0" prefWidth="951.0">
+                                    <AnchorPane fx:id="SubLayerIsiMotor" prefHeight="54.0" prefWidth="951.0">
                                        <children>
-                                          <ToggleButton fx:id="ButtonAll" layoutX="14.0" layoutY="7.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" style="-fx-background-color: #1a3a51;" text="ALL" textFill="WHITE">
+                                          <ToggleButton fx:id="ButtonAllMotor" layoutX="14.0" layoutY="7.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" style="-fx-background-color: #1a3a51;" text="ALL" textFill="WHITE">
                                              <font>
                                                 <Font name="Segoe UI Black" size="12.0" />
                                              </font>
@@ -300,18 +300,18 @@
                                  </children>
                               </AnchorPane>
                            </content></Tab>
-                      <Tab text="Mobil">
+                      <Tab fx:id="TabMobil" text="Mobil">
                            <content>
-                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                              <AnchorPane fx:id="IsiTabMobil" prefHeight="200.0" prefWidth="200.0">
                                  <children>
-                                    <AnchorPane prefHeight="54.0" prefWidth="951.0">
+                                    <AnchorPane fx:id="SubLayerIsiMobil" prefHeight="54.0" prefWidth="951.0">
                                        <children>
-                                          <ToggleButton layoutX="14.0" layoutY="7.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" style="-fx-background-color: #1a3a51;" text="ALL" textFill="WHITE">
+                                          <ToggleButton fx:id="ButtonAllMotor" layoutX="14.0" layoutY="7.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" style="-fx-background-color: #1a3a51;" text="ALL" textFill="WHITE">
                                              <font>
                                                 <Font name="Segoe UI Black" size="12.0" />
                                              </font>
                                           </ToggleButton>
-                                          <ToggleButton layoutX="67.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #1a3a51;">
+                                          <ToggleButton fx:id="ButtonLogoMitsubisi" layoutX="67.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #1a3a51;">
                                              <graphic>
                                                 <ImageView fitHeight="26.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -320,7 +320,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </ToggleButton>
-                                          <ToggleButton layoutX="121.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #1a3a51;">
+                                          <ToggleButton fx:id="ButtonLogoSuzuki" layoutX="121.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #1a3a51;">
                                              <graphic>
                                                 <ImageView fitHeight="26.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -329,7 +329,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </ToggleButton>
-                                          <ToggleButton layoutX="175.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #1a3a51;">
+                                          <ToggleButton fx:id="ButtonLogoHonda" layoutX="175.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #1a3a51;">
                                              <graphic>
                                                 <ImageView fitHeight="26.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -338,7 +338,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </ToggleButton>
-                                          <ToggleButton layoutX="229.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #1a3a51;">
+                                          <ToggleButton fx:id="ButtonLogoBMW" layoutX="229.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #1a3a51;">
                                              <graphic>
                                                 <ImageView fitHeight="26.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -347,7 +347,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </ToggleButton>
-                                          <ToggleButton layoutX="282.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #1a3a51;">
+                                          <ToggleButton fx:id="ButtonLogoToyota" layoutX="282.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #1a3a51;">
                                              <graphic>
                                                 <ImageView fitHeight="26.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -358,26 +358,26 @@
                                           </ToggleButton>
                                        </children>
                                     </AnchorPane>
-                                    <VBox layoutX="14.0" layoutY="54.0" prefHeight="214.0" prefWidth="138.0" style="-fx-background-color: #1a3a51;">
+                                    <VBox fx:id="SubPanelMobi1" layoutX="14.0" layoutY="54.0" prefHeight="214.0" prefWidth="138.0" style="-fx-background-color: #1a3a51;">
                                        <children>
-                                          <AnchorPane prefHeight="216.0" prefWidth="138.0">
+                                          <AnchorPane fx:id="AnchorPaneSubPanelMobil1" prefHeight="216.0" prefWidth="138.0">
                                              <children>
-                                                <ImageView fitHeight="83.0" fitWidth="122.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="ImageSubPanelMobil1" fitHeight="83.0" fitWidth="122.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@../../assets/Mobil/2023_Honda_Brio_Satya_E_(front_left),_Citraland,_West_Surabaya%20(2).png" />
                                                    </image>
                                                 </ImageView>
-                                                <Label layoutX="29.0" layoutY="94.0" text="Honda Brio" textFill="WHITE">
+                                                <Label fx:id="LabelNamaMobilSubPanel1" layoutX="29.0" layoutY="94.0" text="Honda Brio" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="14.0" />
                                                    </font>
                                                 </Label>
-                                                <Label layoutX="12.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Rp. 80.000/Hari" textFill="WHITE">
+                                                <Label fx:id="LabelHargaMobilSubPanel1" layoutX="12.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Rp. 80.000/Hari" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="14.0" />
                                                    </font>
                                                 </Label>
-                                                <Button alignment="CENTER" layoutX="43.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
+                                                <Button fx:id="ButtonSewaMobilSubPanel1" alignment="CENTER" layoutX="43.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="12.0" />
                                                    </font>
@@ -386,26 +386,26 @@
                                           </AnchorPane>
                                        </children>
                                     </VBox>
-                                    <VBox layoutX="174.0" layoutY="54.0" prefHeight="214.0" prefWidth="138.0" style="-fx-background-color: #1a3a51;">
+                                    <VBox fx:id="SubPanelMobi2" layoutX="174.0" layoutY="54.0" prefHeight="214.0" prefWidth="138.0" style="-fx-background-color: #1a3a51;">
                                        <children>
-                                          <AnchorPane prefHeight="216.0" prefWidth="123.0">
+                                          <AnchorPane fx:id="AnchorPaneSubPanelMobil2" prefHeight="216.0" prefWidth="123.0">
                                              <children>
-                                                <ImageView fitHeight="83.0" fitWidth="122.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="ImageSubPanelMobil2" fitHeight="83.0" fitWidth="122.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@../../assets/Mobil/2023_Honda_Brio_Satya_E_(front_left),_Citraland,_West_Surabaya%20(2).png" />
                                                    </image>
                                                 </ImageView>
-                                                <Label layoutX="29.0" layoutY="94.0" text="Honda Brio" textFill="WHITE">
+                                                <Label fx:id="LabelNamaMobilSubPanel2" layoutX="29.0" layoutY="94.0" text="Honda Brio" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="14.0" />
                                                    </font>
                                                 </Label>
-                                                <Label layoutX="12.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Rp. 80.000/Hari" textFill="WHITE">
+                                                <Label fx:id="LabelHargaMobilSubPanel2" layoutX="12.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Rp. 80.000/Hari" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="14.0" />
                                                    </font>
                                                 </Label>
-                                                <Button alignment="CENTER" layoutX="43.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
+                                                <Button fx:id="ButtonSewaMobilSubPanel2" alignment="CENTER" layoutX="43.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="12.0" />
                                                    </font>
@@ -414,26 +414,26 @@
                                           </AnchorPane>
                                        </children>
                                     </VBox>
-                                    <VBox layoutX="335.0" layoutY="54.0" prefHeight="214.0" prefWidth="138.0" style="-fx-background-color: #1a3a51;">
+                                    <VBox fx:id="SubPanelMobi3" layoutX="335.0" layoutY="54.0" prefHeight="214.0" prefWidth="138.0" style="-fx-background-color: #1a3a51;">
                                        <children>
-                                          <AnchorPane prefHeight="216.0" prefWidth="123.0">
+                                          <AnchorPane fx:id="AnchorPaneSubPanelMobil3" prefHeight="216.0" prefWidth="123.0">
                                              <children>
-                                                <ImageView fitHeight="83.0" fitWidth="122.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="ImageSubPanelMobil3" fitHeight="83.0" fitWidth="122.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@../../assets/Mobil/2023_Honda_Brio_Satya_E_(front_left),_Citraland,_West_Surabaya%20(2).png" />
                                                    </image>
                                                 </ImageView>
-                                                <Label layoutX="29.0" layoutY="94.0" text="Honda Brio" textFill="WHITE">
+                                                <Label fx:id="LabelNamaMobilSubPanel3" layoutX="29.0" layoutY="94.0" text="Honda Brio" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="14.0" />
                                                    </font>
                                                 </Label>
-                                                <Label layoutX="12.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Rp. 80.000/Hari" textFill="WHITE">
+                                                <Label fx:id="LabelHargaMobilSubPanel3" layoutX="12.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Rp. 80.000/Hari" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="14.0" />
                                                    </font>
                                                 </Label>
-                                                <Button alignment="CENTER" layoutX="43.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
+                                                <Button fx:id="ButtonSewaMobilSubPanel3" alignment="CENTER" layoutX="43.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="12.0" />
                                                    </font>
@@ -442,26 +442,26 @@
                                           </AnchorPane>
                                        </children>
                                     </VBox>
-                                    <VBox layoutX="496.0" layoutY="54.0" prefHeight="214.0" prefWidth="138.0" style="-fx-background-color: #1a3a51;">
+                                    <VBox fx:id="SubPanelMobi4" layoutX="496.0" layoutY="54.0" prefHeight="214.0" prefWidth="138.0" style="-fx-background-color: #1a3a51;">
                                        <children>
-                                          <AnchorPane prefHeight="216.0" prefWidth="123.0">
+                                          <AnchorPane fx:id="AnchorPaneSubPanelMobil4" prefHeight="216.0" prefWidth="123.0">
                                              <children>
-                                                <ImageView fitHeight="83.0" fitWidth="122.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="ImageSubPanelMobil4" fitHeight="83.0" fitWidth="122.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@../../assets/Mobil/2023_Honda_Brio_Satya_E_(front_left),_Citraland,_West_Surabaya%20(2).png" />
                                                    </image>
                                                 </ImageView>
-                                                <Label layoutX="29.0" layoutY="94.0" text="Honda Brio" textFill="WHITE">
+                                                <Label fx:id="LabelNamaMobilSubPanel4" layoutX="29.0" layoutY="94.0" text="Honda Brio" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="14.0" />
                                                    </font>
                                                 </Label>
-                                                <Label layoutX="12.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Rp. 80.000/Hari" textFill="WHITE">
+                                                <Label fx:id="LabelHargaMobilSubPanel4" layoutX="12.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Rp. 80.000/Hari" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="14.0" />
                                                    </font>
                                                 </Label>
-                                                <Button alignment="CENTER" layoutX="43.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
+                                                <Button fx:id="ButtonSewaMobilSubPanel4" alignment="CENTER" layoutX="43.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="12.0" />
                                                    </font>
@@ -470,26 +470,26 @@
                                           </AnchorPane>
                                        </children>
                                     </VBox>
-                                    <VBox layoutX="657.0" layoutY="54.0" prefHeight="214.0" prefWidth="138.0" style="-fx-background-color: #1a3a51;">
+                                    <VBox fx:id="SubPanelMobi5" layoutX="657.0" layoutY="54.0" prefHeight="214.0" prefWidth="138.0" style="-fx-background-color: #1a3a51;">
                                        <children>
-                                          <AnchorPane prefHeight="216.0" prefWidth="123.0">
+                                          <AnchorPane fx:id="AnchorPaneSubPanelMobil5" prefHeight="216.0" prefWidth="123.0">
                                              <children>
-                                                <ImageView fitHeight="83.0" fitWidth="122.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fx:id="ImageSubPanelMobil5" fitHeight="83.0" fitWidth="122.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
                                                       <Image url="@../../assets/Mobil/2023_Honda_Brio_Satya_E_(front_left),_Citraland,_West_Surabaya%20(2).png" />
                                                    </image>
                                                 </ImageView>
-                                                <Label layoutX="29.0" layoutY="94.0" text="Honda Brio" textFill="WHITE">
+                                                <Label fx:id="LabelNamaMobilSubPanel5" layoutX="29.0" layoutY="94.0" text="Honda Brio" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="14.0" />
                                                    </font>
                                                 </Label>
-                                                <Label layoutX="12.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Rp. 80.000/Hari" textFill="WHITE">
+                                                <Label fx:id="LabelHargaMobilSubPanel5" layoutX="12.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Rp. 80.000/Hari" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="14.0" />
                                                    </font>
                                                 </Label>
-                                                <Button alignment="CENTER" layoutX="43.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
+                                                <Button fx:id="ButtonSewaMobilSubPanel5" alignment="CENTER" layoutX="43.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
                                                    <font>
                                                       <Font name="Segoe UI Black" size="12.0" />
                                                    </font>
@@ -506,33 +506,33 @@
                   <TextField fx:id="textCari" layoutX="738.0" layoutY="1.0" prefHeight="14.0" prefWidth="190.0" promptText="Cari kendaraan....." />
                </children>
             </AnchorPane>
-            <HBox prefHeight="590.0" prefWidth="902.0" visible="false">
+            <HBox fx:id="LayerPesan" prefHeight="590.0" prefWidth="902.0">
                <children>
-                  <VBox prefHeight="590.0" prefWidth="251.0" style="-fx-background-color: #1a3a51;">
+                  <VBox fx:id="SubLayerPesanCetakPesanan" prefHeight="590.0" prefWidth="251.0" style="-fx-background-color: #1a3a51;">
                      <children>
-                        <AnchorPane prefHeight="631.0" prefWidth="251.0">
+                        <AnchorPane fx:id="AnchorPaneSubPanelPesanCetakPesanan" prefHeight="631.0" prefWidth="251.0">
                            <children>
-                              <ImageView fitHeight="160.0" fitWidth="234.0" layoutX="8.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fx:id="ImageGambarPesanan" fitHeight="160.0" fitWidth="234.0" layoutX="8.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../../assets/Mobil/2023_Honda_Brio_Satya_E_(front_left),_Citraland,_West_Surabaya%20(2).png" />
                                  </image>
                               </ImageView>
-                              <Label layoutX="21.0" layoutY="181.0" prefHeight="54.0" prefWidth="205.0" text="Honda Brio" textFill="WHITE">
+                              <Label fx:id="LabelNamaKendaraanPesanan" layoutX="21.0" layoutY="181.0" prefHeight="54.0" prefWidth="205.0" text="Honda Brio" textFill="WHITE">
                                  <font>
                                     <Font name="Segoe UI Black" size="36.0" />
                                  </font>
                               </Label>
-                              <Label layoutX="49.0" layoutY="234.0" prefHeight="27.0" prefWidth="146.0" text="Rp. 80.000/Hari" textFill="WHITE">
+                              <Label fx:id="LabelHargaSewaPesanan" layoutX="49.0" layoutY="234.0" prefHeight="27.0" prefWidth="146.0" text="Rp. 80.000/Hari" textFill="WHITE">
                                  <font>
                                     <Font name="Segoe UI Black" size="18.0" />
                                  </font>
                               </Label>
-                              <Button alignment="CENTER" layoutX="72.0" layoutY="416.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="100.0" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
+                              <Button fx:id="ButtonSewaPesanan" alignment="CENTER" layoutX="72.0" layoutY="416.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="100.0" style="-fx-background-color: #3c5c73;" text="Sewa" textFill="WHITE">
                                  <font>
                                     <Font name="Segoe UI Black" size="24.0" />
                                  </font>
                               </Button>
-                              <Label alignment="CENTER" layoutX="5.0" layoutY="262.0" prefHeight="27.0" prefWidth="234.0" text="Deskripsi" textFill="WHITE">
+                              <Label fx:id="LabelDeskripsiPesanan" alignment="CENTER" layoutX="5.0" layoutY="262.0" prefHeight="27.0" prefWidth="234.0" text="Deskripsi" textFill="WHITE">
                                  <font>
                                     <Font name="Segoe UI" size="16.0" />
                                  </font>
@@ -541,15 +541,15 @@
                         </AnchorPane>
                      </children>
                   </VBox>
-                  <VBox prefHeight="590.0" prefWidth="711.0">
+                  <VBox fx:id="SubLayerBiodata" prefHeight="590.0" prefWidth="711.0">
                      <children>
-                        <AnchorPane prefHeight="753.0" prefWidth="711.0">
+                        <AnchorPane fx:id="AnchorPaneBiodata" prefHeight="753.0" prefWidth="711.0">
                            <children>
-                              <TextField layoutX="38.0" layoutY="56.0" prefHeight="41.0" prefWidth="331.0" />
-                              <TextField layoutX="38.0" layoutY="137.0" prefHeight="41.0" prefWidth="331.0" />
-                              <DatePicker layoutX="39.0" layoutY="217.0" prefHeight="42.0" prefWidth="336.0" />
-                              <DatePicker layoutX="40.0" layoutY="301.0" prefHeight="42.0" prefWidth="336.0" />
-                              <Label layoutX="46.0" layoutY="398.0" prefHeight="35.0" prefWidth="222.0" style="-fx-background-color: #1a3a51;" text="Total" textFill="WHITE">
+                              <TextField fx:id="PengisianNamaPemesan" layoutX="38.0" layoutY="56.0" prefHeight="41.0" prefWidth="331.0" />
+                              <TextField fx:id="PengisianNomorPemesan" layoutX="38.0" layoutY="137.0" prefHeight="41.0" prefWidth="331.0" />
+                              <DatePicker fx:id="TanggalKendaraanDiSewa" layoutX="39.0" layoutY="217.0" prefHeight="42.0" prefWidth="336.0" />
+                              <DatePicker fx:id="SampaiKapanDiSewakan" layoutX="40.0" layoutY="301.0" prefHeight="42.0" prefWidth="336.0" />
+                              <Label fx:id="LabelTotalHargaSewa" layoutX="46.0" layoutY="398.0" prefHeight="35.0" prefWidth="222.0" style="-fx-background-color: #1a3a51;" text="Total" textFill="WHITE">
                                  <font>
                                     <Font name="Segoe UI Black" size="24.0" />
                                  </font>
@@ -559,28 +559,28 @@
                                     <Font name="Segoe UI" size="16.0" />
                                  </font>
                               </Label>
-                              <Label layoutX="45.0" layoutY="107.0" prefHeight="27.0" prefWidth="135.0" text="Nomor Telepon:">
+                              <Label fx:id="LabrlNomorTelepon" layoutX="45.0" layoutY="107.0" prefHeight="27.0" prefWidth="135.0" text="Nomor Telepon:">
                                  <font>
                                     <Font name="Segoe UI" size="16.0" />
                                  </font>
                               </Label>
-                              <Label layoutX="45.0" layoutY="187.0" prefHeight="27.0" prefWidth="135.0" text="Tanggal Sewa:">
+                              <Label fx:id="LabelTanggalSewa" layoutX="45.0" layoutY="187.0" prefHeight="27.0" prefWidth="135.0" text="Tanggal Sewa:">
                                  <font>
                                     <Font name="Segoe UI" size="16.0" />
                                  </font>
                               </Label>
-                              <Label layoutX="45.0" layoutY="271.0" prefHeight="27.0" prefWidth="135.0" text="Sampai dengan:">
+                              <Label fx:id="LabelSampaiDengan" layoutX="45.0" layoutY="271.0" prefHeight="27.0" prefWidth="135.0" text="Sampai dengan:">
                                  <font>
                                     <Font name="Segoe UI" size="16.0" />
                                  </font>
                               </Label>
-                              <TextArea layoutX="476.0" layoutY="93.0" prefHeight="200.0" prefWidth="200.0" promptText="Nama jalan, " />
-                              <Label layoutX="45.0" layoutY="370.0" prefHeight="27.0" prefWidth="135.0" text="Total:">
+                              <TextArea fx:id="TextAreaLokasiPemesan" layoutX="476.0" layoutY="93.0" prefHeight="200.0" prefWidth="200.0" promptText="Nama jalan, No. jalan, kecamatan, kabupaten" />
+                              <Label fx:id="LabelToral" layoutX="45.0" layoutY="370.0" prefHeight="27.0" prefWidth="135.0" text="Total:">
                                  <font>
                                     <Font name="Segoe UI" size="16.0" />
                                  </font>
                               </Label>
-                              <CheckBox layoutX="476.0" layoutY="68.0" mnemonicParsing="false" text="Mau langsung diantar?" />
+                              <CheckBox fx:id="CheckBoxKiriman" layoutX="476.0" layoutY="68.0" mnemonicParsing="false" text="Mau langsung diantar?" />
                            </children>
                         </AnchorPane>
                      </children>
