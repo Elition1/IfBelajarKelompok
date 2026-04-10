@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11547d5c-8cd6-4098-bc2e-c1cb2f56dbfd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IfBelajarKelompok" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AdminControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AdminControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UserControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/loginControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/loginControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo tugas IF rezise.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logo_tugas_IF_rezise.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kendaraanPackage/Biodata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kendaraanPackage/Biodata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kendaraanPackage/Kendaraan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kendaraanPackage/Kendaraan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kendaraanPackage/Mobil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kendaraanPackage/Mobil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kendaraanPackage/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kendaraanPackage/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kendaraanPackage/SistemRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kendaraanPackage/SistemRental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/Controller/AdminControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/Controller/AdminControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/Controller/UserControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/Controller/UserControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/Controller/loginControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/Controller/loginControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Biodata.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Biodata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Kendaraan.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Kendaraan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Mobil.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Mobil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Motor.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Motor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/viewForm/FormAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/viewForm/FormAdmin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/viewForm/FormUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/viewForm/FormUser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/viewForm/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/viewForm/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/viewForm/FormAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/viewForm/FormAdmin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/viewForm/FormUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/viewForm/FormUser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/viewForm/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/viewForm/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/viewForm/FormAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewForm/FormAdmin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/viewForm/FormUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewForm/FormUser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/viewForm/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewForm/login.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Elition1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Elition1/IfBelajarKelompok.git&quot;,
+    &quot;accountId&quot;: &quot;f551ddfc-ea91-4b68-9b61-0240c539204c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3C7LFQ35cP7ukTjI7ByMWlVaF0o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "ifbelajar",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="25 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="sistem-cli-rental" />
+      <option name="PROGRAM_PARAMETERS" value="--module-path &quot;C:\javafx-sdk-26\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11547d5c-8cd6-4098-bc2e-c1cb2f56dbfd" name="Changes" comment="" />
+      <created>1775731560650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775731560650</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
