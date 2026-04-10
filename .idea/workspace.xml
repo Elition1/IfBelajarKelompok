@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7091256a-c739-4100-a5b7-a9104ebd86bd" name="Changes" comment="Added idk whatever">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/UserControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/Controller/AdminControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/Controller/AdminControl.class" afterDir="false" />
+    <list default="true" id="7091256a-c739-4100-a5b7-a9104ebd86bd" name="Changes" comment="Added logic in UserControl.java. Added object sharing between usercontrol and SistemRental m">
       <change beforePath="$PROJECT_DIR$/src/target/classes/Controller/UserControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/Controller/UserControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/Controller/loginControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/Controller/loginControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/Launcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Biodata.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Biodata.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Kendaraan.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Kendaraan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Mobil.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Mobil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Motor.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Motor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/SistemRental.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/SistemRental.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/viewForm/FormAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/viewForm/FormAdmin.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/target/classes/viewForm/FormUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/viewForm/FormUser.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/viewForm/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/viewForm/login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/viewForm/FormUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewForm/FormUser.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775826836184</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added logic in UserControl.java. Added object sharing between usercontrol and SistemRental m">
+      <option name="closed" value="true" />
+      <created>1775838709271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775838709271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +156,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version Update &#10;Added user data for class file Biodata&#10;Added logic in class Kendaraan" />
     <MESSAGE value="Added idk whatever" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added idk whatever" />
+    <MESSAGE value="Added logic in UserControl.java. Added object sharing between usercontrol and SistemRental m" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logic in UserControl.java. Added object sharing between usercontrol and SistemRental m" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
