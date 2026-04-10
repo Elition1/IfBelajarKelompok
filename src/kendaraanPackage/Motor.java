@@ -1,13 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package kendaraanPackage;
 
-/**
- *
- * @author Ath07
- */
-public class Motor extends Kendaraan {
+public class Motor extends Kendaraan
+{
+    private String tipeMotor;
+    public Motor (String merek, String seri, double hargaSewa, String deskripsi, String tipeMotor)
+    {
+        super(merek, seri, hargaSewa, deskripsi);
+        this.tipeMotor = tipeMotor;
+    }
 
+    @Override
+    void tipeKendaraan()
+    {
+
+    }
+
+    public String getTipeMotor() {
+        return tipeMotor;
+    }
+
+    public void setTipeMotor(String tipeMotor) {
+        this.tipeMotor = tipeMotor;
+    }
 }
