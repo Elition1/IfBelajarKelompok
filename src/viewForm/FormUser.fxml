@@ -67,7 +67,7 @@
                      </image>
                   </ImageView>
                   <HBox fx:id="HBoxBackgroundTambahan" layoutX="-1.0" layoutY="-3.0" opacity="0.71" prefHeight="591.0" prefWidth="951.0" style="-fx-background-color: #1a3a51;" />
-                  <Label fx:id="LabelTulisan1" alignment="CENTER" layoutY="154.0" prefHeight="27.0" prefWidth="951.0" text="Rental Mobil dan Motor Jogja" textFill="WHITE">
+                  <Label fx:id="LabelTulisan0" alignment="CENTER" layoutY="154.0" prefHeight="27.0" prefWidth="951.0" text="Rental Mobil dan Motor Jogja" textFill="WHITE">
                      <font>
                         <Font name="Segoe UI Black" size="36.0" />
                      </font>
@@ -420,7 +420,7 @@
                                              <children>
                                                 <ImageView fx:id="ImageSubPanelMobil3" fitHeight="83.0" fitWidth="122.0" layoutX="8.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
-                                                      <Image url="@../../assets/Mobil/2023_Honda_Brio_Satya_E_(front_left),_Citraland,_West_Surabaya%20(2).png" />
+                                                      <Image url="@../../assets/Mobil/2023_Honda_Brio_Satya_E_(front_left),_Citraland,_West_Surabaya (2).png" />
                                                    </image>
                                                 </ImageView>
                                                 <Label fx:id="LabelNamaMobilSubPanel3" layoutX="29.0" layoutY="94.0" text="Honda Brio" textFill="WHITE">
