@@ -1,25 +1,23 @@
 package kendaraanPackage;
 
-public class Motor extends Kendaraan
-{
-    private String tipeMotor;
-    public Motor (String merek, String seri, double hargaSewa, String deskripsi, String tipeMotor)
-    {
-        super(merek, seri, hargaSewa, deskripsi);
+/**
+ *
+ * @author Ath07
+ */
+public class Motor extends Kendaraan {
+    private String tipeMotor; // Matic, Sport, Bebek
+
+    public Motor(String merek, String nama, String seri,
+                 double hargaSewa, String deskripsi, String tipeMotor) {
+        super(merek, nama, seri, hargaSewa, deskripsi);
         this.tipeMotor = tipeMotor;
     }
 
     @Override
-    void tipeKendaraan()
-    {
+    public String getTipeKendaraan() { return "Motor"; }
 
-    }
+    @Override
+    public String getDetailSpesifik() { return "Tipe: " + tipeMotor; }
 
-    public String getTipeMotor() {
-        return tipeMotor;
-    }
-
-    public void setTipeMotor(String tipeMotor) {
-        this.tipeMotor = tipeMotor;
-    }
+    public String getTipeMotor() { return tipeMotor; }
 }

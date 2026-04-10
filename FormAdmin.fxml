@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="708.0" prefWidth="955.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminControl">
+   <children>
+      <HBox prefHeight="57.0" prefWidth="955.0" />
+      <HBox layoutY="-2.0" prefHeight="117.0" prefWidth="955.0" style="-fx-background-color: black;">
+         <children>
+            <AnchorPane prefHeight="117.0" prefWidth="1135.0">
+               <children>
+                  <Label layoutX="140.0" layoutY="13.0" text="RentGo!" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI Black" size="51.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="139.0" layoutY="75.0" text="Just Rent, Just Go™." textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI Semibold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="875.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/Globe_64px.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="736.0" layoutY="49.0" text="Admin Control" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI Semibold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="90.0" fitWidth="100.0" layoutX="20.0" layoutY="27.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/logo%20tugas%20IF%20rezise.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <HBox layoutY="115.0" prefHeight="594.0" prefWidth="237.0">
+         <children>
+            <AnchorPane prefHeight="594.0" prefWidth="243.0" style="-fx-background-color: #333333;">
+               <children>
+                  <VBox layoutY="78.0" prefHeight="436.0" prefWidth="237.0" style="-fx-background-color: #333333;">
+                     <children>
+                        <Button fx:id="btnLookVehicle" mnemonicParsing="false" onAction="#btnLookVehicle" prefHeight="80.0" prefWidth="237.0" style="-fx-background-insets: 0; -fx-background-color: #333333; -fx-border-color: White;" text="Lihat Daftar Kendaraan" textFill="WHITE">
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <font>
+                              <Font name="Segoe UI Semibold" size="15.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="btnAddVehicle" mnemonicParsing="false" onAction="#btnAddVehicle" prefHeight="80.0" prefWidth="237.0" style="-fx-background-insets: 0; -fx-background-color: #333333; -fx-border-color: White;" text="Tambah Kendaraan" textFill="WHITE">
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <font>
+                              <Font name="Segoe UI Semibold" size="15.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="btnRemoveVehicle" mnemonicParsing="false" onAction="#btnRemoveVehicle" prefHeight="80.0" prefWidth="237.0" style="-fx-background-insets: 0; -fx-background-color: #333333; -fx-border-color: White;" text="Hapus Kendaraan" textFill="WHITE">
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <font>
+                              <Font name="Segoe UI Semibold" size="15.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="btnRiwayatTransaksi" mnemonicParsing="false" onAction="#btnRiwayatTransaksi" prefHeight="80.0" prefWidth="237.0" style="-fx-background-insets: 0; -fx-background-color: #333333; -fx-border-color: White;" text="Riwayat Transaksi" textFill="WHITE">
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <font>
+                              <Font name="Segoe UI Semibold" size="15.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <Button fx:id="btnLogout" layoutX="62.0" layoutY="541.0" mnemonicParsing="false" onAction="#btnLogout" prefHeight="25.0" prefWidth="100.0" text="Logout" />
+                  <Label layoutX="14.0" layoutY="14.0" text="RentGo! Admin Panel" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="35.0" text="ver 1.0" textFill="WHITE">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <StackPane layoutX="263.0" layoutY="132.0" prefHeight="559.0" prefWidth="673.0">
+         <children>
+            <AnchorPane fx:id="PanelRiwayat" prefHeight="200.0" prefWidth="200.0" visible="false">
+               <children>
+                  <TableView fx:id="tabelRiwayat" layoutX="40.0" layoutY="65.0" prefHeight="388.0" prefWidth="595.0">
+                    <columns>
+                      <TableColumn fx:id="colRiwayatSeri" prefWidth="120.0" text="Seri" />
+                      <TableColumn fx:id="colRiwayatStatus" prefWidth="150.0" text="Status" />
+                    </columns>
+                  </TableView>
+                  <Label layoutX="45.0" layoutY="23.0" text="Riwayat Rental Penyewa dan Status Kendaraan : ">
+                     <font>
+                        <Font name="Segoe UI" size="19.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+            <AnchorPane fx:id="PanelRemove" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tabRemove" layoutX="30.0" layoutY="75.0" prefHeight="359.0" prefWidth="620.0">
+                    <columns>
+                      <TableColumn fx:id="colTipe2" prefWidth="90.0" text="Tipe" />
+                      <TableColumn fx:id="colMerek2" prefWidth="100.0" text="Merek" />
+                      <TableColumn fx:id="colNama2" prefWidth="120.0" text="Nama" />
+                      <TableColumn fx:id="colSeri2" prefWidth="110.0" text="Seri" />
+                      <TableColumn fx:id="colHarga2" prefWidth="120.0" text="Harga/Hari" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="btnRemove" onAction="#btnRemove" layoutX="497.0" layoutY="459.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="155.0" text="Hapus Kendaraan" />
+                  <Label layoutX="30.0" layoutY="37.0" prefHeight="33.0" prefWidth="284.0" text="Pilih kendaraan yang akan dihapus :">
+                     <font>
+                        <Font name="Segoe UI" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="PanelTambah" prefHeight="200.0" prefWidth="200.0" visible="false">
+               <children>
+                  <ComboBox fx:id="cmbJenis" layoutX="45.0" layoutY="61.0" prefHeight="33.0" prefWidth="237.0" />
+                  <ComboBox fx:id="cmbMerek" layoutX="45.0" layoutY="141.0" prefHeight="33.0" prefWidth="237.0" />
+                  <ComboBox fx:id="cmbStatus" layoutX="45.0" layoutY="227.0" prefHeight="33.0" prefWidth="237.0" visible="false" />
+                  <TextField fx:id="txtHarga" layoutX="45.0" layoutY="308.0" prefHeight="33.0" prefWidth="316.0" promptText="format : Rp.XXXX-," />
+                  <TextField fx:id="txtDeskripsi" layoutX="45.0" layoutY="392.0" prefHeight="130.0" prefWidth="316.0" promptText="Deskripsi" />
+                  <Text layoutX="45.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pilih Jenis Kendaraan : ">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="45.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pilih Merek Kendaraan : ">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="45.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pilih Status Kendaraan : ">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="45.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Harga Sewa Kendaan (per Hari)">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="45.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi Kendaraan : ">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="ImageMerk" fitHeight="182.0" fitWidth="185.0" layoutX="453.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button fx:id="btnSimpanKendaraan" onAction="#btnSimpanKendaraan" layoutX="445.0" layoutY="481.0" mnemonicParsing="false" text="Simpan Kendaraan">
+                     <font>
+                        <Font name="Segoe UI" size="21.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="PanelDaftar" prefHeight="200.0" prefWidth="200.0" visible="false">
+               <children>
+                  <TableView fx:id="tabDaftar" layoutX="30.0" layoutY="63.0" prefHeight="359.0" prefWidth="614.0">
+                    <columns>
+                      <TableColumn fx:id="colTipe" prefWidth="90.0" text="Tipe" />
+                      <TableColumn fx:id="colMerek" prefWidth="100.0" text="Merek" />
+                      <TableColumn fx:id="colNama" prefWidth="120.0" text="Nama" />
+                      <TableColumn fx:id="colSeri" prefWidth="110.0" text="Seri" />
+                      <TableColumn fx:id="colHarga" prefWidth="120.0" text="Harga/Hari" />
+                    </columns>
+                  </TableView>
+                  <Label layoutX="30.0" layoutY="29.0" text="Lihat Daftar Kendaraan : ">
+                     <font>
+                        <Font name="Segoe UI" size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="cmbDaftarKendaraan" layoutX="429.0" layoutY="475.0" prefHeight="25.0" prefWidth="215.0" promptText="Klik disini" />
+                  <Label layoutX="429.0" layoutY="450.0" text="Filter Harga : ">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="cmbHarga" layoutX="232.0" layoutY="475.0" prefHeight="25.0" prefWidth="170.0" promptText="Klik disini" />
+                  <Label layoutX="238.0" layoutY="450.0" text="Filter Merek : ">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="cmbMerekFilter" layoutX="30.0" layoutY="475.0" prefHeight="25.0" prefWidth="155.0" promptText="Klik disini" />
+                  <Label layoutX="30.0" layoutY="450.0" text="Filter Jenis Kendaraan : ">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
