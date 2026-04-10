@@ -48,7 +48,7 @@
                         <Font name="Segoe UI Black" size="16.0" />
                      </font>
                   </Button>
-                  <Button fx:id="TombolLogout" layoutX="853.0" layoutY="31.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="78.0" style="-fx-background-color: #1a3a51; -fx-text-fill: white;" text="Logout">
+                  <Button fx:id="TombolLogout" layoutX="853.0" layoutY="31.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="78.0" style="-fx-background-color: #1a3a51; -fx-text-fill: white;" text="Logout" onAction="#btnLogout">
                      <font>
                         <Font name="Segoe UI Black" size="16.0" />
                      </font>

@@ -47,8 +47,8 @@ public class UserControl implements Initializable
     }
 
     private void tampilLayar(AnchorPane aktif){
-        LayerUser.setVisible(false);
-        LayerBeranda.setVisible(false);
+        LayerUser.setVisible(true);
+        LayerBeranda.setVisible(true);
         Layerkendaraan.setVisible(false);
         aktif.setVisible(true);
     }
