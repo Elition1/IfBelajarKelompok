@@ -89,6 +89,7 @@ public class AdminControl implements Initializable {
         setupTabelHapus();
         setupTabelDaftar();
         muatDataTabel();
+        tampilPane(PanelDaftar);
     }
    
     /**

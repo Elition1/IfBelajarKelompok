@@ -4,23 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7091256a-c739-4100-a5b7-a9104ebd86bd" name="Changes" comment="ik">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7091256a-c739-4100-a5b7-a9104ebd86bd" name="Changes" comment="Added logic to mobil class adding logic for class motor soon">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/IfBelajarKelompok.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IfBelajarKelompok.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kendaraanPackage/Kendaraan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kendaraanPackage/Kendaraan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kendaraanPackage/Mobil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kendaraanPackage/Mobil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kendaraanPackage/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kendaraanPackage/Motor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/Launcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Kendaraan.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Kendaraan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Mobil.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Mobil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Motor.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Motor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/SistemRental.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/SistemRental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AdminControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AdminControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/Controller/AdminControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/Controller/UserControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/Controller/loginControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/Launcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/Globe_64px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/Mobil/bmw_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/Mobil/honda_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/Mobil/mitsubishi_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/Mobil/suzuki_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/Mobil/toyota_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/Motor/honda_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/Motor/s-l400-removebg-preview (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/Motor/suzuki_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/logo tugas IF (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/logo_tugas_IF_rezise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/assets/traffic_jam_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Biodata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Kendaraan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Mobil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/Motor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/kendaraanPackage/SistemRental.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/sistem-cli-rental.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/Globe_64px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/Mobil/bmw_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/Mobil/honda_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/Mobil/mitsubishi_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/Mobil/suzuki_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/Mobil/toyota_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/Motor/honda_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/Motor/s-l400-removebg-preview (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/Motor/suzuki_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/logo tugas IF (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/logo_tugas_IF_rezise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/assets/traffic_jam_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/sistem-cli-rental.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/viewForm/FormAdmin.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/viewForm/FormUser.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/target/classes/viewForm/login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/viewForm/FormAdmin.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/viewForm/FormUser.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/viewForm/login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/viewForm/FormAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewForm/FormAdmin.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/viewForm/FormUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewForm/FormUser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/viewForm/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewForm/login.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="COMPILER_PROCESS_ADDITIONAL_VM_OPTIONS" value="--module-path C:\javafx-sdk-26\lib --add-modules javafx.controls,javafx.fxml" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,26 +115,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "ifbelajar",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ifbelajar&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Launcher" />
+      <module name="sistem-cli-rental" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="sistem-cli-rental" />
@@ -95,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
